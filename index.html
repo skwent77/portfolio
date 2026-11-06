@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI 연구부터 백엔드 개발까지. 소프트웨어 개발자 신재현의 프로젝트와 경험을 소개합니다.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="신재현 — Portfolio">
+  <meta property="og:description" content="AI와 백엔드로 문제를 풀고, 배운 것을 다음 작업으로 연결합니다.">
+  <meta property="og:type" content="website">
+  <title>Portfolio | Jaehyun Shin</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./projects.js" defer></script>
+  <script src="./script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <header class="header wrap">
+    <a class="identity" href="#top"><strong>신재현</strong><span>Jaehyun Shin</span></a>
+    <nav aria-label="주요 메뉴"><a href="#ai-research">AI & Research</a><a href="#backend">Backend</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  </header>
+  <main class="wrap" id="main">
+    <section class="hero" aria-labelledby="intro-title">
+      <h1 id="intro-title">소프트웨어 개발자,<br>AI와 서비스를 연결합니다.</h1>
+      <p>반갑습니다. AI와 백엔드를 다루는 개발자 신재현입니다.<br class="desktop-break"> 데이터에서 패턴을 찾고, 모델의 가능성을 서비스로 옮기는 일에 관심이 있습니다.<br class="desktop-break"> 연구와 개발, 운영에서 만난 문제들을 하나씩 풀어가고 있습니다.</p>
+      <a class="quiet-link mono" href="https://github.com/skwent77" target="_blank" rel="noopener noreferrer">github.com/skwent77 <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="work-section" id="ai-research" aria-labelledby="ai-title">
+      <div class="section-heading"><h2 id="ai-title">AI & Research</h2><span class="mono">4 works</span></div>
+      <div class="project-grid">
+        <button class="project" type="button" data-project="stock" aria-haspopup="dialog"><span class="project-image"><img src="./assets/stock.svg" alt="질문, 벡터 검색, 용어 설명을 연결한 주식 용어 에이전트 구조" width="960" height="540" fetchpriority="high"><span class="view-project">View project ↗</span></span><span class="project-meta mono">2026</span><h3>Stock Term Agent</h3><span class="project-tags mono">python, langchain, chromadb, rag, mcp</span></button>
+        <button class="project" type="button" data-project="local" aria-haspopup="dialog"><span class="project-image"><img src="./assets/local.svg" alt="생각, 도구 실행, 관찰로 이어지는 ReAct 에이전트 루프" width="960" height="540"><span class="view-project">View project ↗</span></span><span class="project-meta mono">2026</span><h3>Local AI Agent</h3><span class="project-tags mono">ai agent, react loop, tool use</span></button>
+        <button class="project" type="button" data-project="byol" aria-haspopup="dialog"><span class="project-image"><img src="./assets/byol.svg" alt="온라인 네트워크와 타깃 네트워크를 연결한 BYOL 연구 그래픽" width="960" height="540" loading="lazy"><span class="view-project">View project ↗</span></span><span class="project-meta mono">2021</span><h3>Vehicle Representation Learning</h3><span class="project-tags mono">python, pytorch, byol, docker</span></button>
+        <button class="project" type="button" data-project="crack" aria-haspopup="dialog"><span class="project-image"><img src="./assets/crack.svg" alt="타일 표면의 미세한 균열을 표시한 컴퓨터 비전 그래픽" width="960" height="540" loading="lazy"><span class="view-project">View project ↗</span></span><span class="project-meta mono">2020</span><h3>Micro-crack Detection</h3><span class="project-tags mono">computer vision, efficientnet, xception, ensemble</span></button>
+      </div>
+    </section>
+
+    <section class="work-section" id="backend" aria-labelledby="backend-title">
+      <div class="section-heading"><h2 id="backend-title">Backend</h2><span class="mono">2 works</span></div>
+      <div class="project-grid">
+        <button class="project" type="button" data-project="peelie" aria-haspopup="dialog"><span class="project-image"><img src="./assets/peelie.svg" alt="설문 입력에서 비동기 생성 작업과 결과 조회로 이어지는 Peelie 구조" width="960" height="540" loading="lazy"><span class="view-project">View project ↗</span></span><span class="project-meta mono">Web application</span><h3>Peelie</h3><span class="project-tags mono">java, spring boot, jpa, gpt api</span></button>
+        <button class="project" type="button" data-project="czb" aria-haspopup="dialog"><span class="project-image"><img src="./assets/czb.svg" alt="폴더와 북마크의 계층 구조를 보여주는 CZB 그래픽" width="960" height="540" loading="lazy"><span class="view-project">View project ↗</span></span><span class="project-meta mono">Web application</span><h3>CZB — Bookmark Manager</h3><span class="project-tags mono">java, spring security, jwt, mysql</span></button>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><h2 id="about-title">About</h2><span class="mono">A little about me</span></div>
+      <div class="about-copy"><p>저는 AI 연구와 백엔드 개발을 경험하며, 모델과 서비스 사이의 연결을 고민해 왔습니다. 새로운 기술을 만났을 때 동작 원리를 이해하고, 직접 구현해 보며 배우는 과정을 좋아합니다.</p><p>중앙대학교에서 컴퓨터공학을 전공했습니다. SKT AI Fellowship에서는 라벨 없는 차량 이미지를 활용한 자기지도학습을 연구했고, 웹 프로젝트에서는 인증과 데이터 처리, 생성형 AI를 연결하는 API를 구현했습니다.</p><p>파이서브코리아에서는 전자결제 서비스 개발을 지원했고, 리스모에서는 반복 업무의 자동화와 Notion 기반 업무 현황 관리를 경험했습니다. 기술을 선택하는 이유와 실제로 사용하는 사람의 맥락을 함께 생각하려고 합니다.</p></div>
+      <dl class="skills"><div><dt>LANGUAGES</dt><dd>python, java, sql</dd></div><div><dt>BACKEND & CLOUD</dt><dd>spring boot, jpa, mysql, docker, aws</dd></div><div><dt>FOCUS</dt><dd>ai agent, rag, computer vision, api</dd></div></dl>
+      <div class="notes-grid"><div><h3 class="mono small-heading">EXPERIENCE & EDUCATION</h3><ul class="timeline"><li><span class="mono">2026</span><span>리스모<small>업무 자동화 · 운영 현황 관리</small></span></li><li><span class="mono">2021</span><span>파이서브코리아<small>이커머스솔루션팀 · 인턴</small></span></li><li><span class="mono">2024</span><span>중앙대학교<small>컴퓨터공학 전공 · 졸업</small></span></li></ul></div><div><h3 class="mono small-heading">SELECTED AWARDS</h3><ul class="timeline"><li><span class="mono">2021</span><span>SKT AI Fellowship<small>3기 · 장려상</small></span></li><li><span class="mono">2021</span><span>SW중심대학 해커톤<small>SW중심대학협의회장상</small></span></li><li><span class="mono">2020</span><span>인공지능 문제해결 경진대회<small>본선 3위 · 우수상</small></span></li></ul></div></div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="section-heading"><h2 id="contact-title">Contact</h2><span aria-hidden="true">↗</span></div><p>함께 만들고, 배우고, 문제를 해결할 기회를 기다립니다.</p><dl class="contact-list"><div><dt class="mono">GitHub</dt><dd><a href="https://github.com/skwent77" target="_blank" rel="noopener noreferrer">github.com/skwent77 <span aria-hidden="true">↗</span></a></dd></div><div><dt class="mono">Portfolio</dt><dd><a href="https://jaehyun-shin-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">기존 포트폴리오 <span aria-hidden="true">↗</span></a></dd></div></dl></section>
+  </main>
+  <footer class="footer wrap mono"><span>© <span id="year">2026</span> Jaehyun Shin</span><a href="#top">Back to top ↑</a></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-bar"><span class="mono">PROJECT DETAILS</span><button type="button" id="close-dialog" aria-label="프로젝트 상세 닫기">닫기 <span aria-hidden="true">×</span></button></div><div id="dialog-content"></div><div class="dialog-footer"><button type="button" id="previous-project">← 이전 프로젝트</button><span class="mono" id="project-position"></span><button type="button" id="next-project">다음 프로젝트 →</button></div></dialog>
+</body>
+</html>
